@@ -20,7 +20,7 @@ setTimeout(() => {
 
 },1000)
        
-    },[])
+    },[navigate])
 
  const signOutHandle = () => {
     signOut(auth).then(() => {

@@ -1,5 +1,4 @@
 import React from 'react'
-import { ContactList } from './ContactList'
 import "./Contact.css"
 const Contact = () => {
 

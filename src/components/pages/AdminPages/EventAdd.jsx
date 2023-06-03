@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getFirestore, collection, addDoc, doc } from 'firebase/firestore/lite';
+import { getFirestore, collection, addDoc,  } from 'firebase/firestore/lite';
 import { initializeApp } from 'firebase/app';
 import "../Admin.css"
 import Sidebar from './Sidebar';
