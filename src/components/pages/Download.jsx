@@ -37,11 +37,11 @@ const Download = () => {
   }, []);
 
   const columns = [
-    { field: 'date', headerName: 'Date', width: 200 },
-    { field: 'description', headerName: 'Description', width: 450 },
-    { field: 'link', headerName: 'Download', width: 450 ,renderCell: (params) => (
+    { field: 'date', headerName: 'Date', width: 100 },
+    { field: 'description', headerName: 'Description', width: 130 },
+    { field: 'link', headerName: 'Download', width: 150 ,renderCell: (params) => (
       <a href={params.value} target="_blank" rel="noopener noreferrer">
-        Download Link
+        Download 
       </a>
     )},
 
