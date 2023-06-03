@@ -1,0 +1,35 @@
+.contact-list {
+    box-sizing: border-box;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.contact-list label {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.contact-list ul {
+    list-style: none;
+    margin: 10px;
+    background-color: #1e126c;
+    color: white;
+    padding: 20px;
+}
+
+.contact-list  li {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-list a{
+    text-decoration: none;
+    color: white;
+}

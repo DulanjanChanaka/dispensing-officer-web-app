@@ -1,0 +1,33 @@
+.slideadd {
+    margin: 20px;
+    box-sizing: content-box;
+    
+    
+}
+
+.admin-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.adminhead{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn-sub {
+    padding: 8px;
+    background-color: rgb(108, 108, 204);
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.form input{
+    display: flex;
+    flex-direction: row;
+
+}
+

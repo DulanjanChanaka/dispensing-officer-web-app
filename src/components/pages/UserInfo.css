@@ -1,0 +1,40 @@
+.enterfield{
+    box-sizing: border-box;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.enterfield label, .enterfield input{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+}
+
+
+.enterfield input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 80vw;
+    padding: 5px;
+ 
+}
+
+.enterfield label{
+    background-color: #0d1b66;
+    padding: 5px;
+    color: white;
+
+}
+
+.enterfield button {
+    padding: 12px;
+    background-color: #20183b;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}

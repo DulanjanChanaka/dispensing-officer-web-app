@@ -1,0 +1,11 @@
+.container{
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.table{
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 50px;
+   
+}
