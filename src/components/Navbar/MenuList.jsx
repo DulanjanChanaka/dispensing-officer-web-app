@@ -8,6 +8,10 @@ export const MenuList = [
         url: "/userinfo"
     },
     {
+        title: "Transfer",
+        url: "/transfer"
+    },
+    {
         title: "Download",
         url:"/download",
     },

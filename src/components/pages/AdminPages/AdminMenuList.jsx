@@ -1,7 +1,7 @@
 export const AdminMenuList = [
     {
         title: "Reg Users",
-        url:"/addslide",
+        url:"/reguser",
     },
     {
         title: "Slide Section",

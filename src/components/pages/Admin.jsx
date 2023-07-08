@@ -7,12 +7,10 @@ import "./Admin.css"
 const Admin = () => {
   
   return (
-    <div>
+    <div className='admin-panel'>
       <Sidebar/>
-      
-      
-      
-      
+      <h1>Wellcome to Admin Panel</h1>
+       
     </div>
   )
 }

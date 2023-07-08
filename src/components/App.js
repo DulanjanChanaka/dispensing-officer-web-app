@@ -11,6 +11,10 @@ import AddSlide from './pages/AdminPages/AddSlide';
 import EventAdd from './pages/AdminPages/EventAdd';
 import DowloadAdd from './pages/AdminPages/DownloadAdd';
 import Login from "./pages/Login"
+import Transfer from './pages/Transfer';
+import AddTransfer from './pages/AddTransfer';
+import RegUser from './pages/AdminPages/RegUser';
+
 function App() {
   return (
     <div className="container">
@@ -28,6 +32,11 @@ function App() {
           <Route path='/adddownload'  element={<DowloadAdd/>}/>
           <Route path='/addevent'  element={<EventAdd/>}/>
           <Route path= '/login'   element={<Login/>}/> 
+          <Route path='/transfer'  element={<Transfer/>}/>
+          <Route path='/addtransfer'  element={<AddTransfer/>}/>
+          <Route path='/reguser' element={<RegUser/>}/>
+          
+
         </Routes>
       </BrowserRouter>
 

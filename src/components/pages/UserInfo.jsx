@@ -84,6 +84,8 @@ const UserInfo = () => {
     <>
     <div className='enterfield'>
     <form onSubmit={handleSubmit}>
+
+      <h2 className='info-sin'>ඔබගේ තොරතුරු ලබා දෙන්න </h2>
       <div lable-input>
 
       <label >Name:</label>
@@ -98,7 +100,7 @@ const UserInfo = () => {
         <input type="text" value={address} onChange={(e) => setAddress(e.target.value)} />
     
       
-      <label>Dristrict:</label>
+      <label>District:</label>
         <input type="text" value={district} onChange={(e) => setDistrict(e.target.value)} />
     
       

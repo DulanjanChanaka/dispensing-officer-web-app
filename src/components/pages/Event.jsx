@@ -37,9 +37,9 @@ const Event = () => {
   }, []);
 
   const columns = [
-    { field: 'date', headerName: 'Date', width: 100 },
-    { field: 'description', headerName: 'Event Name', width: 140 },
-    { field: 'link', headerName: 'Link', width: 150 ,renderCell: (params) => (
+    { field: 'date', headerName: 'Date', width: 100 ,},
+    { field: 'description', headerName: 'Event Name', width: 140 , },
+    { field: 'link', headerName: 'Link', width: 100 , renderCell: (params) => (
       <a href={params.value} target="_blank" rel="noopener noreferrer">
          Link
       </a>

@@ -30,4 +30,11 @@
     flex-direction: row;
 
 }
+.admin-panel h1 {
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
 

@@ -40,11 +40,11 @@ setTimeout(() => {
             <ul className="list">
                 
                 
-                <li> <Link to="/addslide" activeClassName="active">Reg Users</Link></li>
+                <li> <Link to="/reguser" activeClassName="active">Reg Users</Link></li>
                 <li><Link to="/addslide" activeClassName="active">Slide Section</Link></li>
                 <li><Link to="/adddownload" activeClassName="active">Download Section</Link></li>
                 <li><Link to="/addevent" activeClassName="active">Event Section </Link></li>
-                <li><button onClick={signOutHandle}>Log out</button></li>
+                <li><button className="logout-btn" onClick={signOutHandle}>Log out</button></li>
             </ul>
         </div>
 
